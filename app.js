@@ -8,7 +8,7 @@ app.use(express.json());
 // app.locals.moment = require('moment');
 
 app.get('/', async ( req, res ) => {
-    return res.json({ message: "hii" });
+    return res.json({ message: "hello mfs" });
 })
 app.use('/open',openApis);
 // app.use('/auth',authorized);
