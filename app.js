@@ -11,7 +11,7 @@ app.get('/', async ( req, res ) => {
     return res.json({ message: "hii" });
 })
 app.use('/open',openApis);
-app.use('/auth',authorized);
+// app.use('/auth',authorized);
 
 // app.use('/auth',authApis, loadUser);
 

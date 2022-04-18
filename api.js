@@ -1,6 +1,6 @@
 const { User } = require('./user');
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
 
 exports.openApis = async (req,res) => {
     try{
